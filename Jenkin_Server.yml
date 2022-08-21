@@ -22,7 +22,7 @@ Resources:
         SecurityGroups:
           - !Ref InstanceSecurityGroup
         KeyName: !Ref KeyName
-        ImageId: ami-0aeeebd8d2ab47354
+        ImageId: ami-076e3a557efe1aa9c
         UserData:
           Fn::Base64:
             !Sub |
